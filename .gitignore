@@ -1,5 +1,5 @@
 .DS_Store
 .venv
-__pychache__
+__pycache__
 openssl
 *.sqlite3
