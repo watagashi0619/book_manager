@@ -38,8 +38,7 @@ async def index(request: Request):
 
 @app.get("/get_bookinfo/{isbn}")
 def book_info(isbn: str):
-    dic = get_bookinfo(isbn)
-    return dic
+    return get_bookinfo(isbn)
 
 
 @app.post("/update")
